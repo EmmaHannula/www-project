@@ -1,0 +1,92 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url("https://i0.wp.com/kuopiontaitovalmennus.fi/wp-content/uploads/2016/12/Grey-cement-Seamless-Pattern-For-Website-Background-1.jpg?fit=550%2C250");
+}
+
+.App-header {
+  background-color: #4f68a3;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-image: url("https://i0.wp.com/kuopiontaitovalmennus.fi/wp-content/uploads/2016/12/Grey-cement-Seamless-Pattern-For-Website-Background-1.jpg?fit=550%2C250");
+  font-family: Lucida Handwriting;
+}
+
+textarea,
+select {
+  height: 38px;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  border-radius: 20px;
+}
+
+textarea {
+  min-height: 100px;
+  min-width: 100px;
+  padding-top: 15px;
+  padding-bottom: 6px;
+  border: 1px solid black;
+}
+
+/*When writing to textarea*/
+textarea:focus,
+select:focus {
+  border: 1px solid grey;
+  outline: 0;
+}
+
+/*Labels of inputs*/
+label,
+legend {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: black;
+  font-size: 14px;
+}
+
+#userinfo {
+  /*container to userlog*/
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+}
+
+.postcontainer {
+  /*indivitual ports*/
+  position: relative;
+  border-radius: 20px;
+  border: 1px solid black;
+  width: 100%;
+  margin: 20px auto;
+  background-color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.postcontainer:hover {
+  overflow: visible;
+}
+
+p.author {
+  font-size: 10;
+  margin-top: 0px;
+  font-weight: bold;
+  line-height: 5px;
+}
+
+p.usernamepost {
+  line-height: 5px;
+  font-style: italic;
+}
+
+.divider {
+  width: 5px;
+  height: 5px;
+  height: auto;
+  display: inline-block;
+}
